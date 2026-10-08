@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Portal de Belén" />
+    <meta name="author" content="Fernando Reche" />
+
+    <title>Portal de Belén</title>
+
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- SCRIPTS -->
+    <script src="js/componentes.js" defer></script>
+  </head>
+
+  <body>
+
+    <!-- Contenedor donde se cargará el header.html mediante fetch() -->
+    <div id="header-container"></div>
+
+    <main class="contenedor-principal">
+        <div class="tarjeta-global">
+  <h1 class="titulo-principal">Una tradición viva</h1>
+
+  <!-- SECCIÓN 1: Historia -->
+  <fieldset class="caja-seccion">
+    <legend class="subtitulo-borde">Historia del Belén</legend>
+    <div class="contenido-seccion">
+      <p>
+        La tradición del Belén se remonta al año 1223, cuando San Francisco de Asís 
+        organizó la primera representación en una cueva de Greccio, Italia...
+      </p>
+      <img src="img/historia.png" alt="Representación histórica del Belén" class="imagen-seccion" />
+    </div>
+  </fieldset>
+
+  <!-- SECCIÓN 2: Las Figuras -->
+  <fieldset class="caja-seccion">
+    <legend class="subtitulo-borde">Las Figuras Principales</legend>
+    <div class="contenido-seccion">
+      <p>
+        El Nacimiento está integrado por la Virgen María, San José y el Niño Jesús en el pesebre...
+      </p>
+      <img src="img/figuras.png" alt="Figuras del Belén" class="imagen-seccion" />
+    </div>
+  </fieldset>
+  </div>
+</main>
+
+    <!-- Contenedor del Footer -->
+  <div id="footer-container"></div>
+
+  </body>
+</html>

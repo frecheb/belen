@@ -1,0 +1,37 @@
+<header class="site-header">
+  <div class="header-container">
+    <!-- Botón hamburguesa para móvil -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
+
+    <!-- Marca / Título principal -->
+    <div class="header-brand">
+      <a href="index.html">
+        <img src="img/favicon.png" alt="Logo Belén" class="brand-logo" />
+        <span class="brand-title">El Belén de Pedrito</span>
+      </a>
+    </div>
+
+    <!-- Espacio reservado a la derecha para equilibrar en flexbox o un icono secundario -->
+    <div class="header-right-spacer"></div>
+  </div>
+</header>
+
+<!-- Drawer / Menú desplegable lateral para móvil -->
+<div class="nav-overlay" id="navOverlay"></div>
+<nav class="nav-drawer" id="navDrawer">
+  <div class="drawer-header">
+    <span class="drawer-title">Navegación</span>
+    <button class="drawer-close" id="drawerClose" aria-label="Cerrar menú">&times;</button>
+  </div>
+  <ul class="drawer-menu">
+    <li><a href="index.html" class="active">Inicio</a></li>
+    <li><a href="#historia">Historia del Belén</a></li>
+    <li><a href="#figuras">Las Figuras</a></li>
+    <li><a href="#horarios">Horarios y Visitas</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
